@@ -1,0 +1,18 @@
+{
+    "class_range":{
+      "car": [[0, 30], [30, 50], [50, 80], [0, 80]],
+      "truck": [[0, 30], [30, 50], [50, 80], [0, 80]],
+      "bus": [[0, 30], [30, 50], [50, 80], [0, 80]],
+      "pedestrian": [[0, 30], [30, 50], [50, 80], [0, 80]],
+      "motorcyclist": [[0, 30], [30, 50], [50, 80], [0, 80]],
+      "bicyclist": [[0, 30], [30, 50], [50, 80], [0, 80]]
+    },
+    "dist_fcn": "center_distance",
+    "dist_ths": [0.5, 1.0, 2.0, 4.0],
+    "dist_th_tp": 2.0,
+    "min_recall": 0.1,
+    "min_precision": 0.1,
+    "max_boxes_per_sample": 500,
+    "mean_ap_weight": 3,
+    "only_accurate_localization": true
+  }

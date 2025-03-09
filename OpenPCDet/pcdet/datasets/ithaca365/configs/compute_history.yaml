@@ -1,0 +1,14 @@
+version: v1.1
+data_path: /home/yy785/projects/adaptation/downstream/OpenPCDet/data/ithaca365/v1.1
+only_accurate_localization: true
+
+total_part: 1
+part: 0
+
+target_save_path: /home/yy785/projects/adaptation/downstream/OpenPCDet/data/ithaca365/v1.1/best_pos_history
+ranges: [0, 70.1]
+num_history: 5
+every_x_meter: 5.
+
+val_only: false
+history_type: any

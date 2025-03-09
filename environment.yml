@@ -1,0 +1,29 @@
+name: diffubox
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python>=3.8, < 3.10  # package build failures on 3.10
+  - pip
+  - numpy=1.25.2
+  - click>=8.0
+  - pillow>=8.3.1
+  - scipy>=1.7.1
+  - pytorch=1.12.1
+  - psutil
+  - requests
+  - tqdm
+  - imageio
+  - pip:
+    - imageio-ffmpeg>=0.4.3
+    - pyspng
+    - kornia==0.7.0
+    - torchvision==0.13.1
+    - scikit-image==0.22.0
+    - pyquaternion
+    - opencv-python==4.8.1.78
+    - av2==0.2.1
+    - pycocotools
+    - pyyaml==6.0.1
+    - easydict
+    - spconv-cu113==2.3.6
